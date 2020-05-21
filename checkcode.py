@@ -10,7 +10,7 @@
 #     return(a)
 # arr=[1,2,3,4,5,7,6,8,9]
 # print(reve(arr))
-def left_rotaion_by_n(a,n):
+def right_rotaion_by_n(a,n):
     b=a[-n:] + a[:-n]
     return(b)
 
